@@ -25,8 +25,7 @@ void bubbleSort(){
 
 void main(){
     srand(time(0));
-    int a;
-    for (a = 0; a < len; a++)
+    for (int a = 0; a < len; a++)
     arr[a] = rand() % 100;
     printf("Unsorted array: ");
     print();
